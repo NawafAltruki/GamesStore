@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Games Store</string>
+
+    <!--Items Names Strings -->
+    <string name="ps5">Playstation 5</string>
+    <string name="ps5_headset">Headset</string>
+    <string name="ps5_camera">Camera</string>
+    <string name="ps5_cd">CD</string>
+    <string name="ps5_controller">Controller</string>
+    <!--Items Prices Strings -->
+    <string name="ps5_price">1500 SR</string>
+    <string name="ps5_headset_price">250 SR</string>
+    <string name="ps5_camera_price">200 SR</string>
+    <string name="ps5_cd_price">250 SR</string>
+    <string name="ps5_controller_price">200 SR</string>
+</resources>
