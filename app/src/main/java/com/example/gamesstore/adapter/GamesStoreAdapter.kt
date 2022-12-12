@@ -1,6 +1,7 @@
 package com.example.gamesstore.adapter
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,6 +10,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.gamesstore.Cart
 import com.example.gamesstore.R
 import com.example.gamesstore.model.GamesStore
 
@@ -32,7 +34,12 @@ class GamesStoreAdapter(private val context: Context,
 
         // Card view click listener
         holder.card.setOnClickListener{
-            onCardClick()
+            val context = holder.itemView.context
+            val intent = Intent(context,Cart::class.java)
+            intent.putExtra("name",holder.itemName.text.toString())
+            intent.putExtra("price",holder.itemPrice.text.toString())
+            intent.putExtra("image",item.image)
+            context.startActivity(intent)
 
         }
     }
@@ -51,9 +58,9 @@ class GamesStoreAdapter(private val context: Context,
     } // End ViewHolder
 
     //OnCard Click
-    fun onCardClick(){
+    /*fun onCardClick(){
         val toast = Toast.makeText(context,"Added To Cart",Toast.LENGTH_SHORT)
         toast.show()
-    }
+    }*/
 
 } // End BookAdapter
