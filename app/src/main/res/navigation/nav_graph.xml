@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/itemListFragment">
+
+    <fragment
+        android:id="@+id/itemListFragment"
+        android:name="com.example.gamesstore.ui.ItemListFragment"
+        android:label="@string/game_store"
+        tools:layout="@layout/fragment_item_list" >
+
+        <action
+            android:id="@+id/action_itemListFragment_to_cartFragment"
+            app:destination="@id/cartFragment">
+            <argument
+                android:name="name"
+                app:argType="string" />
+            <argument
+                android:name="price"
+                app:argType="string" />
+            <argument
+                android:name="image"
+                app:argType="integer" />
+            <argument
+                android:name="description"
+                app:argType="string" />
+
+        </action>
+
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.gamesstore.ui.CartFragment"
+        android:label="@string/item_name"
+        tools:layout="@layout/fragment_cart" />
+</navigation>

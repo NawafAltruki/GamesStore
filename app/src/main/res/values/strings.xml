@@ -13,4 +13,15 @@
     <string name="ps5_camera_price">200 SR</string>
     <string name="ps5_cd_price">250 SR</string>
     <string name="ps5_controller_price">200 SR</string>
+    <string name="ps5_description">Powered by an eight-core AMD Zen 2 CPU and custom AMD Radeon GPU, the PS5 is offered in two models: with and without a 4K Blu-ray drive. Supporting a 120Hz video refresh, the PS5 is considerably more powerful than the PS4 and PS4 Pro. Rather than GDDR5 memory, GDDR6 is supported with capacity doubled from 8 to 16GB.</string>
+    <string name="ps5_headset_description">Enjoy a seamless, wireless experience with a headset fine-tuned for 3D Audio on both PS4 and PS5 consoles1. The PULSE 3D wireless headset features a refined design with dual noise-cancelling microphones, USB Type-C® charging, and an array of easy-access controls.</string>
+    <string name="ps5_camera_description">Featuring dual lenses for 1080p capture and a built-in stand, the HD camera works seamlessly with the PS5 background removal tools to put you in the spotlight. Quickly create a recording or a broadcast of yourself and your gameplay, with your DualSense wireless controllers create button.</string>
+    <string name="ps5_controller_description">The DualSense wireless controller for PS5 offers immersive haptic feedback, dynamic adaptive triggers and a built-in microphone, all integrated into an iconic design</string>
+    <string name="ps5_cd_description">The PS5 Disc is a disc-equipped console and therefore can play PS5-compatible physical copies of games. The disc console can also double as a Blu-ray player that supports 4k video. The Digital Edition can only get games that have been gotten from the PlayStation Store or any other internet-connected channels.
+</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="game_store">Games Store</string>
+    <string name="item_name">Item Details</string>
 </resources>
